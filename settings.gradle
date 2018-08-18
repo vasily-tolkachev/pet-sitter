@@ -1,2 +1,5 @@
 rootProject.name = 'pet-sitter'
 
+include 'core'
+include 'persistence'
+include 'service'
