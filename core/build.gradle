@@ -1,7 +1,6 @@
 dependencies {
-    compile hibernate.ehcache, hibernate.em, hibernate.core, hibernate.validator,
+    compile misc.joda, hibernate.ehcache, hibernate.em, hibernate.core, hibernate.validator,
             spring.jdbc, spring.orm, spring.contextSupport, spring.data, spring.aop, misc.h2,
             misc.jacksonCore, misc.jacksonDatabind, misc.jacksonAnnotations, misc.commons, misc.cglib
-
     compileOnly misc.lombok
 }
